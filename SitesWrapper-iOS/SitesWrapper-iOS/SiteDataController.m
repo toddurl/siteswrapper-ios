@@ -1,6 +1,7 @@
 /*
- *       File: SiteController.m
- *   Abstract: Handles Site objects.
+ *       File: SiteDataController.m
+ *   Abstract: Handles the creation of Site objects (I guess, (this is actually
+ *             my first iOS program (if anyone reads this send me an email))).
  *    Version: 1.0
  *
  * Created by: Todd Url on 8/13/14.
@@ -52,4 +53,3 @@
 }
 
 @end
-

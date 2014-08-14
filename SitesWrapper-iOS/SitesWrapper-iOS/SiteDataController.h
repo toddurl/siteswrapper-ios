@@ -12,6 +12,6 @@
 @interface SiteDataController : NSObject
 @property (nonatomic, copy) NSMutableArray *masterSiteList;
 - (NSUInteger)countOfList;
-- (LogEntry *)objectInListAtIndex:(NSUInteger)theIndex;
+- (Site *)objectInListAtIndex:(NSUInteger)theIndex;
 - (void)addSiteWithEntry:(Site *)entry;
 @end
