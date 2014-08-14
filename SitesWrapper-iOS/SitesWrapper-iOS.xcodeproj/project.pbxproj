@@ -32,12 +32,10 @@
 		1A2644A1199B30520080918E /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2644A0199B30520080918E /* Site.m */; };
 		1A2644A4199BA1D90080918E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A2644A3199BA1D90080918E /* README.txt */; };
 		1A2644AB199BA80A0080918E /* SiteDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2644AA199BA80A0080918E /* SiteDataController.m */; };
-		1A2644B3199D20440080918E /* Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2644B2199D20440080918E /* Style.m */; };
 		1A2644B5199D249D0080918E /* Landing.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A2644B4199D249C0080918E /* Landing.h */; };
 		1A2644B7199D24C30080918E /* Landing.m in Resources */ = {isa = PBXBuildFile; fileRef = 1A2644B6199D24C30080918E /* Landing.m */; };
 		1A2644B9199D24FC0080918E /* LandingDataController.h in Resources */ = {isa = PBXBuildFile; fileRef = 1A2644B8199D24FB0080918E /* LandingDataController.h */; };
 		1A2644BB199D251C0080918E /* LandingDataController.m in Resources */ = {isa = PBXBuildFile; fileRef = 1A2644BA199D251C0080918E /* LandingDataController.m */; };
-		1A494260199D2E6B002F0672 /* StyleDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A49425F199D2E6B002F0672 /* StyleDataController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,13 +84,10 @@
 		1A2644A3199BA1D90080918E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		1A2644AA199BA80A0080918E /* SiteDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteDataController.m; sourceTree = "<group>"; };
 		1A2644B1199C9B610080918E /* Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Style.h; sourceTree = "<group>"; };
-		1A2644B2199D20440080918E /* Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Style.m; sourceTree = "<group>"; };
 		1A2644B4199D249C0080918E /* Landing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Landing.h; sourceTree = "<group>"; };
 		1A2644B6199D24C30080918E /* Landing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Landing.m; sourceTree = "<group>"; };
 		1A2644B8199D24FB0080918E /* LandingDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandingDataController.h; sourceTree = "<group>"; };
 		1A2644BA199D251C0080918E /* LandingDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandingDataController.m; sourceTree = "<group>"; };
-		1A49425E199D2DB9002F0672 /* StyleDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleDataController.h; sourceTree = "<group>"; };
-		1A49425F199D2E6B002F0672 /* StyleDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleDataController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,9 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				1A2644B1199C9B610080918E /* Style.h */,
-				1A2644B2199D20440080918E /* Style.m */,
-				1A49425E199D2DB9002F0672 /* StyleDataController.h */,
-				1A49425F199D2E6B002F0672 /* StyleDataController.m */,
 			);
 			name = Style;
 			sourceTree = "<group>";
@@ -446,8 +438,6 @@
 				1A26447A199A8C990080918E /* SecondViewController.m in Sources */,
 				1A2644A1199B30520080918E /* Site.m in Sources */,
 				1A2644AB199BA80A0080918E /* SiteDataController.m in Sources */,
-				1A2644B3199D20440080918E /* Style.m in Sources */,
-				1A494260199D2E6B002F0672 /* StyleDataController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
