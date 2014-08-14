@@ -13,8 +13,8 @@
 #import <Foundation/Foundation.h>
 
 @interface Site : NSObject
--(id)initWithDate:(NSDate *)date siteName:(NSString *)siteName;
-@property NSDate *date;
+-(id)initWithDate:(NSDate *)revision siteName:(NSString *)siteName;
+@property NSDate *revision;
 @property NSString *siteName;
 @property NSString *applicationId;
 @property NSString *lookAndFeel;

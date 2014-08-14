@@ -11,9 +11,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Style : NSObject
--(id)initWithDate:(NSDate *)date revision:(NSString *)siteName;
+-(id)initWithDate:(NSDate *)revision lookAndFeel:(NSString *)lookAndFeel;
 @property NSDate *revision;
-@property NSString *LookAndFeel;
+@property NSString *lookAndFeel;
 @property NSString *description;
 @property NSString *primaryColor;
 @property NSString *primaryAccentColor;

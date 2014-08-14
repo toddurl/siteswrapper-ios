@@ -1,5 +1,5 @@
 /*
- *  Site.c
+ *  Site.m
  *  SitesWrapper-iOS
  *
  *  Created by Todd Url on 8/12/14.
@@ -10,10 +10,10 @@
 
 @implementation Site
 
-- (id)initWithDate:(NSDate *)date siteName:(NSString *)siteName {
+- (id)initWithDate:(NSDate *)revision siteName:(NSString *)siteName {
   self = [super init];
   if (self) {
-    _date = date;
+    _revision = revision;
     _siteName = siteName;
     return self;
   }
