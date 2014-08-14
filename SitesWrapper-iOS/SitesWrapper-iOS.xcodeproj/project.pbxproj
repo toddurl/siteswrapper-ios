@@ -79,6 +79,7 @@
 		1A2644A2199B32400080918E /* SiteDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SiteDataController.h; sourceTree = "<group>"; };
 		1A2644A3199BA1D90080918E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		1A2644AA199BA80A0080918E /* SiteDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteDataController.m; sourceTree = "<group>"; };
+		1A2644B1199C9B610080918E /* Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Style.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +144,9 @@
 				1A264463199A8C990080918E /* AppDelegate.m */,
 				1A26446B199A8C990080918E /* MainStoryboard_iPhone.storyboard */,
 				1A26446E199A8C990080918E /* MainStoryboard_iPad.storyboard */,
-				1A26449C199A8F7A0080918E /* Data Model */,
-				1A26449D199A8FA60080918E /* Site */,
-				1A2644A5199BA7470080918E /* Style */,
+				1A26449C199A8F7A0080918E /* Model */,
+				1A2644AC199C97470080918E /* Controllers */,
+				1A2644B0199C97EA0080918E /* Endpoints */,
 				1A26445A199A8C990080918E /* Supporting Files */,
 			);
 			name = src;
@@ -185,7 +186,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1A26449C199A8F7A0080918E /* Data Model */ = {
+		1A26449C199A8F7A0080918E /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				1A26449E199AB5470080918E /* Site */,
@@ -194,7 +195,7 @@
 				1A2644A8199BA7AD0080918E /* Item */,
 				1A2644A9199BA7BB0080918E /* Page */,
 			);
-			name = "Data Model";
+			name = Model;
 			sourceTree = "<group>";
 		};
 		1A26449D199A8FA60080918E /* Site */ = {
@@ -233,6 +234,7 @@
 		1A2644A6199BA77A0080918E /* Style */ = {
 			isa = PBXGroup;
 			children = (
+				1A2644B1199C9B610080918E /* Style.h */,
 			);
 			name = Style;
 			sourceTree = "<group>";
@@ -256,6 +258,46 @@
 			children = (
 			);
 			name = Page;
+			sourceTree = "<group>";
+		};
+		1A2644AC199C97470080918E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A26449D199A8FA60080918E /* Site */,
+				1A2644A5199BA7470080918E /* Style */,
+				1A2644AD199C97700080918E /* Landing */,
+				1A2644AE199C977D0080918E /* Item */,
+				1A2644AF199C97910080918E /* Page */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1A2644AD199C97700080918E /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Landing;
+			sourceTree = "<group>";
+		};
+		1A2644AE199C977D0080918E /* Item */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Item;
+			sourceTree = "<group>";
+		};
+		1A2644AF199C97910080918E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Page;
+			sourceTree = "<group>";
+		};
+		1A2644B0199C97EA0080918E /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Endpoints;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -570,6 +612,7 @@
 				1A264498199A8C990080918E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A264499199A8C990080918E /* Build configuration list for PBXNativeTarget "SitesWrapper-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +621,7 @@
 				1A26449B199A8C990080918E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
