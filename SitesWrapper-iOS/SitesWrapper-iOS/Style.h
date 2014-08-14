@@ -1,8 +1,8 @@
 /*
  *  Style.h
- *  SitesWrapper-iOS
+ *  StylesWrapper-iOS
  *
- *  Modifies the customizable elements of each LookAndFeel.
+ *  Defines the customizable style attributes of the LookAndFeel objects.
  *
  *  Created by Todd Url on 8/14/14.
  *  Copyright (c) 2014 Todd Url. All rights reserved.
