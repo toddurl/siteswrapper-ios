@@ -36,6 +36,9 @@
 		1A3243FF19AAA81500469D47 /* SWItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3243FE19AAA81500469D47 /* SWItem.m */; };
 		1A5907B719B91281001CFB37 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A5907B619B91281001CFB37 /* README.txt */; };
 		1A5907BA19B91375001CFB37 /* SitesWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907B919B91375001CFB37 /* SitesWrapper.m */; };
+		1A5907C619B91502001CFB37 /* Site.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5907C119B91502001CFB37 /* Site.storyboard */; };
+		1A5907C719B91502001CFB37 /* SiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C319B91502001CFB37 /* SiteViewController.m */; };
+		1A5907C819B91502001CFB37 /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C519B91502001CFB37 /* InformationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +92,11 @@
 		1A5907B619B91281001CFB37 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		1A5907B819B91375001CFB37 /* SitesWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SitesWrapper.h; sourceTree = "<group>"; };
 		1A5907B919B91375001CFB37 /* SitesWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SitesWrapper.m; sourceTree = "<group>"; };
+		1A5907C119B91502001CFB37 /* Site.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Site.storyboard; sourceTree = "<group>"; };
+		1A5907C219B91502001CFB37 /* SiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteViewController.h; sourceTree = "<group>"; };
+		1A5907C319B91502001CFB37 /* SiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteViewController.m; sourceTree = "<group>"; };
+		1A5907C419B91502001CFB37 /* InformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationViewController.h; sourceTree = "<group>"; };
+		1A5907C519B91502001CFB37 /* InformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +159,7 @@
 				1A5907B619B91281001CFB37 /* README.txt */,
 				1A5907B819B91375001CFB37 /* SitesWrapper.h */,
 				1A5907B919B91375001CFB37 /* SitesWrapper.m */,
+				1A5907BB19B9148A001CFB37 /* Views */,
 				1A26449C199A8F7A0080918E /* Model */,
 				1A2644AC199C97470080918E /* Controllers */,
 				1A2644B0199C97EA0080918E /* Endpoints */,
@@ -313,6 +322,58 @@
 			name = Endpoints;
 			sourceTree = "<group>";
 		};
+		1A5907BB19B9148A001CFB37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A5907C019B914B7001CFB37 /* Site */,
+				1A5907BF19B914AD001CFB37 /* Styles */,
+				1A5907BE19B914A4001CFB37 /* Items */,
+				1A5907BD19B9149B001CFB37 /* Landings */,
+				1A5907BC19B91494001CFB37 /* Pages */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1A5907BC19B91494001CFB37 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pages;
+			sourceTree = "<group>";
+		};
+		1A5907BD19B9149B001CFB37 /* Landings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Landings;
+			sourceTree = "<group>";
+		};
+		1A5907BE19B914A4001CFB37 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Items;
+			sourceTree = "<group>";
+		};
+		1A5907BF19B914AD001CFB37 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Styles;
+			sourceTree = "<group>";
+		};
+		1A5907C019B914B7001CFB37 /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				1A5907C119B91502001CFB37 /* Site.storyboard */,
+				1A5907C219B91502001CFB37 /* SiteViewController.h */,
+				1A5907C319B91502001CFB37 /* SiteViewController.m */,
+				1A5907C419B91502001CFB37 /* InformationViewController.h */,
+				1A5907C519B91502001CFB37 /* InformationViewController.m */,
+			);
+			name = Site;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -405,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A264490199A8C990080918E /* InfoPlist.strings in Resources */,
+				1A5907C619B91502001CFB37 /* Site.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +509,8 @@
 			files = (
 				1A264493199A8C990080918E /* SitesWrapper_iOSTests.m in Sources */,
 				1A5907BA19B91375001CFB37 /* SitesWrapper.m in Sources */,
+				1A5907C719B91502001CFB37 /* SiteViewController.m in Sources */,
+				1A5907C819B91502001CFB37 /* InformationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
