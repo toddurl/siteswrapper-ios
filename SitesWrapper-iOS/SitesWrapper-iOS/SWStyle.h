@@ -1,16 +1,14 @@
-/*
- *  Style.h
- *  StylesWrapper-iOS
- *
- *  Defines the customizable style attributes of the LookAndFeel objects.
- *
- *  Created by Todd Url on 8/14/14.
- *  Copyright (c) 2014 Todd Url. All rights reserved.
- */
+//
+//  SWStyle.h
+//  SitesWrapper-iOS
+//
+//  Created by Todd Url on 8/24/14.
+//  Copyright (c) 2014 Todd Url. All rights reserved.
+//
 
 #import <Foundation/Foundation.h>
 
-@interface Style : NSObject
+@interface SWStyle : NSObject
 -(id)initWithDate:(NSDate *)revision lookAndFeel:(NSString *)lookAndFeel;
 @property NSDate *revision;
 @property NSString *lookAndFeel;

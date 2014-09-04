@@ -12,7 +12,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Site : NSObject
+@interface SWSite : NSObject
 -(id)initWithDate:(NSDate *)revision siteName:(NSString *)siteName;
 @property NSDate *revision;
 @property NSString *siteName;

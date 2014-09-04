@@ -6,9 +6,9 @@
  *  Copyright (c) 2014 Todd Url. All rights reserved.
  */
 
-#import "Site.h"
+#import "SWSite.h"
 
-@implementation Site
+@implementation SWSite
 
 - (id)initWithDate:(NSDate *)revision siteName:(NSString *)siteName {
   self = [super init];

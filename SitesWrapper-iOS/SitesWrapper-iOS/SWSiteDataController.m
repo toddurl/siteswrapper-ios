@@ -8,14 +8,14 @@
  * Copyright (C) 2014 URL IS/IT All rights reserved.
  */
 
-#import "SiteDataController.h"
-#import "Site.h"
+#import "SWSiteDataController.h"
+#import "SWSite.h"
 
-@interface SiteDataController ()
+@interface SWSiteDataController ()
 - (void)initializeDefaultDataList;
 @end
 
-@implementation SiteDataController
+@implementation SWSiteDataController
 
 - (id)init {
   if (self = [super init]) {
@@ -28,9 +28,9 @@
 - (void)initializeDefaultDataList {
   NSMutableArray *entryList = [[NSMutableArray alloc] init];
   self.masterSiteList = entryList;
-  Site *entry;
+  SWSite *entry;
   NSDate *today = [NSDate date];
-  entry = [[Site alloc] initWithDate:today siteName:@"Initial Site Entry"];
+  entry = [[SWSite alloc] initWithDate:today siteName:@"Initial Site Entry"];
   [self addSiteWithEntry:entry];
 }
 
@@ -44,11 +44,11 @@
   return [self.masterSiteList count];
 }
 
-- (Site *)objectInListAtIndex:(NSUInteger)theIndex {
+- (SWSite *)objectInListAtIndex:(NSUInteger)theIndex {
   return [self.masterSiteList objectAtIndex:theIndex];
 }
 
-- (void)addSiteWithEntry:(Site *)entry {
+- (void)addSiteWithEntry:(SWSite *)entry {
   [self.masterSiteList addObject:entry];
 }
 

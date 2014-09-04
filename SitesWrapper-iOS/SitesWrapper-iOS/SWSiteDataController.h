@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@class Site;
-@interface SiteDataController : NSObject
+@class SWSite;
+@interface SWSiteDataController : NSObject
 @property (nonatomic, copy) NSMutableArray *masterSiteList;
 - (NSUInteger)countOfList;
-- (Site *)objectInListAtIndex:(NSUInteger)theIndex;
-- (void)addSiteWithEntry:(Site *)entry;
+- (SWSite *)objectInListAtIndex:(NSUInteger)theIndex;
+- (void)addSiteWithEntry:(SWSite *)entry;
 @end
