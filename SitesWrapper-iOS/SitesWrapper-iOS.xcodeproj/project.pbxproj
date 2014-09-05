@@ -46,6 +46,28 @@
 		1A404E4619B91D1000A85CFF /* Styles@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E4419B91D1000A85CFF /* Styles@2x.png */; };
 		1A404E4919B91D1F00A85CFF /* Site.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E4719B91D1F00A85CFF /* Site.png */; };
 		1A404E4A19B91D1F00A85CFF /* Site@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E4819B91D1F00A85CFF /* Site@2x.png */; };
+		1A404E4B19B9366000A85CFF /* SitesWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907B919B91375001CFB37 /* SitesWrapper.m */; };
+		1A404E4C19B9366D00A85CFF /* SiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C319B91502001CFB37 /* SiteViewController.m */; };
+		1A404E4E19B9368A00A85CFF /* SiteViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C219B91502001CFB37 /* SiteViewController.h */; };
+		1A404E4F19B9368A00A85CFF /* InformationViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C419B91502001CFB37 /* InformationViewController.h */; };
+		1A404E5019B9368A00A85CFF /* InformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907C519B91502001CFB37 /* InformationViewController.m */; };
+		1A404E5219B9369400A85CFF /* StylesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E0619B91BC300A85CFF /* StylesViewController.m */; };
+		1A404E5419B9369400A85CFF /* StylesDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E0819B91BC300A85CFF /* StylesDataViewController.m */; };
+		1A404E5619B9369400A85CFF /* StylesModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E0A19B91BC300A85CFF /* StylesModelController.m */; };
+		1A404E5819B936A500A85CFF /* ItemsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E1119B91BCF00A85CFF /* ItemsNavigationController.m */; };
+		1A404E5A19B936A500A85CFF /* ItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E1319B91BCF00A85CFF /* ItemsViewController.m */; };
+		1A404E5C19B936A500A85CFF /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E1519B91BCF00A85CFF /* ItemViewController.m */; };
+		1A404E5E19B936B100A85CFF /* LandingsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E1C19B91BE300A85CFF /* LandingsNavigationController.m */; };
+		1A404E6019B936B100A85CFF /* LandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E1E19B91BE300A85CFF /* LandingsViewController.m */; };
+		1A404E6219B936B100A85CFF /* LandingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E2019B91BE300A85CFF /* LandingViewController.m */; };
+		1A404E6419B936BB00A85CFF /* PagesNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E2719B91BF500A85CFF /* PagesNavigationController.m */; };
+		1A404E6619B936BB00A85CFF /* PagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E2919B91BF500A85CFF /* PagesViewController.m */; };
+		1A404E6819B936BB00A85CFF /* PageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A404E2B19B91BF500A85CFF /* PageViewController.m */; };
+		1A404E6B19B946B300A85CFF /* Site.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5907C119B91502001CFB37 /* Site.storyboard */; };
+		1A404E6C19B946BB00A85CFF /* Styles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E0419B91BC300A85CFF /* Styles.storyboard */; };
+		1A404E6D19B946C500A85CFF /* Items.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E0F19B91BCF00A85CFF /* Items.storyboard */; };
+		1A404E6E19B946D300A85CFF /* Landings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E1A19B91BE300A85CFF /* Landings.storyboard */; };
+		1A404E6F19B946DF00A85CFF /* Pages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A404E2519B91BF500A85CFF /* Pages.storyboard */; };
 		1A5907B719B91281001CFB37 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1A5907B619B91281001CFB37 /* README.txt */; };
 		1A5907BA19B91375001CFB37 /* SitesWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A5907B919B91375001CFB37 /* SitesWrapper.m */; };
 		1A5907C619B91502001CFB37 /* Site.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5907C119B91502001CFB37 /* Site.storyboard */; };
@@ -189,8 +211,8 @@
 				1A5907B619B91281001CFB37 /* README.txt */,
 				1A5907B819B91375001CFB37 /* SitesWrapper.h */,
 				1A5907B919B91375001CFB37 /* SitesWrapper.m */,
-				1A404E3019B91C6700A85CFF /* Resources */,
 				1A5907BB19B9148A001CFB37 /* Views */,
+				1A404E3019B91C6700A85CFF /* Resources */,
 				1A26445A199A8C990080918E /* Supporting Files */,
 			);
 			path = "SitesWrapper-iOS";
@@ -445,6 +467,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A404E6F19B946DF00A85CFF /* Pages.storyboard in Resources */,
+				1A404E6E19B946D300A85CFF /* Landings.storyboard in Resources */,
+				1A404E6D19B946C500A85CFF /* Items.storyboard in Resources */,
+				1A404E6C19B946BB00A85CFF /* Styles.storyboard in Resources */,
+				1A404E6B19B946B300A85CFF /* Site.storyboard in Resources */,
 				1A26445E199A8C990080918E /* InfoPlist.strings in Resources */,
 				1A264466199A8C990080918E /* Default.png in Resources */,
 				1A264468199A8C990080918E /* Default@2x.png in Resources */,
@@ -499,6 +526,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A404E6419B936BB00A85CFF /* PagesNavigationController.m in Sources */,
+				1A404E6619B936BB00A85CFF /* PagesViewController.m in Sources */,
+				1A404E6819B936BB00A85CFF /* PageViewController.m in Sources */,
+				1A404E5E19B936B100A85CFF /* LandingsNavigationController.m in Sources */,
+				1A404E6019B936B100A85CFF /* LandingsViewController.m in Sources */,
+				1A404E6219B936B100A85CFF /* LandingViewController.m in Sources */,
+				1A404E5819B936A500A85CFF /* ItemsNavigationController.m in Sources */,
+				1A404E5A19B936A500A85CFF /* ItemsViewController.m in Sources */,
+				1A404E5C19B936A500A85CFF /* ItemViewController.m in Sources */,
+				1A404E5219B9369400A85CFF /* StylesViewController.m in Sources */,
+				1A404E5419B9369400A85CFF /* StylesDataViewController.m in Sources */,
+				1A404E5619B9369400A85CFF /* StylesModelController.m in Sources */,
+				1A404E4E19B9368A00A85CFF /* SiteViewController.h in Sources */,
+				1A404E4F19B9368A00A85CFF /* InformationViewController.h in Sources */,
+				1A404E5019B9368A00A85CFF /* InformationViewController.m in Sources */,
+				1A404E4C19B9366D00A85CFF /* SiteViewController.m in Sources */,
+				1A404E4B19B9366000A85CFF /* SitesWrapper.m in Sources */,
 				1A264460199A8C990080918E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,7 +628,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -609,7 +653,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -621,6 +665,7 @@
 				GCC_PREFIX_HEADER = "SitesWrapper-iOS/SitesWrapper-iOS-Prefix.pch";
 				INFOPLIST_FILE = "SitesWrapper-iOS/SitesWrapper-iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -632,6 +677,7 @@
 				GCC_PREFIX_HEADER = "SitesWrapper-iOS/SitesWrapper-iOS-Prefix.pch";
 				INFOPLIST_FILE = "SitesWrapper-iOS/SitesWrapper-iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
